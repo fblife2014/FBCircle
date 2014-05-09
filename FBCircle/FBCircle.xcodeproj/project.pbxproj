@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199A01DC1918D1DF0081F51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A01DB1918D1DF0081F51D /* Foundation.framework */; };
+		199A01DE1918D1DF0081F51D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A01DD1918D1DF0081F51D /* CoreGraphics.framework */; };
+		199A01E01918D1DF0081F51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A01DF1918D1DF0081F51D /* UIKit.framework */; };
+		199A01E61918D1DF0081F51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199A01E41918D1DF0081F51D /* InfoPlist.strings */; };
+		199A01E81918D1DF0081F51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A01E71918D1DF0081F51D /* main.m */; };
+		199A01EC1918D1DF0081F51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A01EB1918D1DF0081F51D /* AppDelegate.m */; };
+		199A01EE1918D1DF0081F51D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199A01ED1918D1DF0081F51D /* Images.xcassets */; };
+		199A01F51918D1DF0081F51D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A01F41918D1DF0081F51D /* XCTest.framework */; };
+		199A01F61918D1DF0081F51D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A01DB1918D1DF0081F51D /* Foundation.framework */; };
+		199A01F71918D1DF0081F51D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A01DF1918D1DF0081F51D /* UIKit.framework */; };
+		199A01FF1918D1DF0081F51D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199A01FD1918D1DF0081F51D /* InfoPlist.strings */; };
+		199A02011918D1DF0081F51D /* FBCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A02001918D1DF0081F51D /* FBCircleTests.m */; };
+		199A020C1918D7390081F51D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A020B1918D7390081F51D /* MainViewController.m */; };
+		199A02101918DA130081F51D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A020F1918DA130081F51D /* LoginViewController.m */; };
+		199A02131918DA5F0081F51D /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A02121918DA5F0081F51D /* FriendListViewController.m */; };
+		199A02161918DA8E0081F51D /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A02151918DA8E0081F51D /* NewFriendViewController.m */; };
+		199A021B1919CD420081F51D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A021A1919CD420081F51D /* LeftViewController.m */; };
+		199A021E1919CD6C0081F51D /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A021D1919CD6C0081F51D /* RightViewController.m */; };
+		199A0228191A11F90081F51D /* SzkAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A0227191A11F90081F51D /* SzkAPI.m */; };
+		199A022A191A13150081F51D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A0229191A13150081F51D /* AddressBook.framework */; };
+		199A022C191A131C0081F51D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A022B191A131C0081F51D /* AddressBookUI.framework */; };
+		199A026D191B7EC60081F51D /* SzkLoadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A026C191B7EC60081F51D /* SzkLoadData.m */; };
+		CFB1EC5CCA004D43AB37F42F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA336E5564984EDCBE0DB938 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199A01F81918D1DF0081F51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199A01D01918D1DF0081F51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199A01D71918D1DF0081F51D;
+			remoteInfo = FBCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		199A01D81918D1DF0081F51D /* FBCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199A01DB1918D1DF0081F51D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		199A01DD1918D1DF0081F51D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		199A01DF1918D1DF0081F51D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		199A01E31918D1DF0081F51D /* FBCircle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBCircle-Info.plist"; sourceTree = "<group>"; };
+		199A01E51918D1DF0081F51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199A01E71918D1DF0081F51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		199A01E91918D1DF0081F51D /* FBCircle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBCircle-Prefix.pch"; sourceTree = "<group>"; };
+		199A01EA1918D1DF0081F51D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		199A01EB1918D1DF0081F51D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		199A01ED1918D1DF0081F51D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		199A01F31918D1DF0081F51D /* FBCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		199A01F41918D1DF0081F51D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		199A01FC1918D1DF0081F51D /* FBCircleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBCircleTests-Info.plist"; sourceTree = "<group>"; };
+		199A01FE1918D1DF0081F51D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199A02001918D1DF0081F51D /* FBCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBCircleTests.m; sourceTree = "<group>"; };
+		199A020A1918D7390081F51D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../../FBCircle/MainViewController.h; sourceTree = "<group>"; };
+		199A020B1918D7390081F51D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../../FBCircle/MainViewController.m; sourceTree = "<group>"; };
+		199A020E1918DA130081F51D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		199A020F1918DA130081F51D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		199A02111918DA5F0081F51D /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		199A02121918DA5F0081F51D /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		199A02141918DA8E0081F51D /* NewFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFriendViewController.h; sourceTree = "<group>"; };
+		199A02151918DA8E0081F51D /* NewFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFriendViewController.m; sourceTree = "<group>"; };
+		199A02191919CD420081F51D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		199A021A1919CD420081F51D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		199A021C1919CD6C0081F51D /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightViewController.h; path = ../RightViewController.h; sourceTree = "<group>"; };
+		199A021D1919CD6C0081F51D /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightViewController.m; path = ../RightViewController.m; sourceTree = "<group>"; };
+		199A0226191A11F90081F51D /* SzkAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SzkAPI.h; sourceTree = "<group>"; };
+		199A0227191A11F90081F51D /* SzkAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SzkAPI.m; sourceTree = "<group>"; };
+		199A0229191A13150081F51D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		199A022B191A131C0081F51D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		199A026B191B7EC60081F51D /* SzkLoadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SzkLoadData.h; sourceTree = "<group>"; };
+		199A026C191B7EC60081F51D /* SzkLoadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SzkLoadData.m; sourceTree = "<group>"; };
+		8B611DE4DD6843ADB67DE824 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FA336E5564984EDCBE0DB938 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199A01D51918D1DF0081F51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199A022C191A131C0081F51D /* AddressBookUI.framework in Frameworks */,
+				199A022A191A13150081F51D /* AddressBook.framework in Frameworks */,
+				199A01DE1918D1DF0081F51D /* CoreGraphics.framework in Frameworks */,
+				199A01E01918D1DF0081F51D /* UIKit.framework in Frameworks */,
+				199A01DC1918D1DF0081F51D /* Foundation.framework in Frameworks */,
+				CFB1EC5CCA004D43AB37F42F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199A01F01918D1DF0081F51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199A01F51918D1DF0081F51D /* XCTest.framework in Frameworks */,
+				199A01F71918D1DF0081F51D /* UIKit.framework in Frameworks */,
+				199A01F61918D1DF0081F51D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199A01CF1918D1DF0081F51D = {
+			isa = PBXGroup;
+			children = (
+				199A01E11918D1DF0081F51D /* FBCircle */,
+				199A01FA1918D1DF0081F51D /* FBCircleTests */,
+				199A01DA1918D1DF0081F51D /* Frameworks */,
+				199A01D91918D1DF0081F51D /* Products */,
+				8B611DE4DD6843ADB67DE824 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		199A01D91918D1DF0081F51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199A01D81918D1DF0081F51D /* FBCircle.app */,
+				199A01F31918D1DF0081F51D /* FBCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199A01DA1918D1DF0081F51D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				199A022B191A131C0081F51D /* AddressBookUI.framework */,
+				199A0229191A13150081F51D /* AddressBook.framework */,
+				199A01DB1918D1DF0081F51D /* Foundation.framework */,
+				199A01DD1918D1DF0081F51D /* CoreGraphics.framework */,
+				199A01DF1918D1DF0081F51D /* UIKit.framework */,
+				199A01F41918D1DF0081F51D /* XCTest.framework */,
+				FA336E5564984EDCBE0DB938 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		199A01E11918D1DF0081F51D /* FBCircle */ = {
+			isa = PBXGroup;
+			children = (
+				199A0225191A11C40081F51D /* PersonalApi */,
+				199A0224191A11B00081F51D /* Public */,
+				199A02231919E8B10081F51D /* Resources */,
+				199A02171918E0C30081F51D /* Views */,
+				199A02181918E0C30081F51D /* Models */,
+				199A020D1918D7760081F51D /* Controllers */,
+				199A01EA1918D1DF0081F51D /* AppDelegate.h */,
+				199A01EB1918D1DF0081F51D /* AppDelegate.m */,
+				199A01ED1918D1DF0081F51D /* Images.xcassets */,
+				199A01E21918D1DF0081F51D /* Supporting Files */,
+			);
+			path = FBCircle;
+			sourceTree = "<group>";
+		};
+		199A01E21918D1DF0081F51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199A01E31918D1DF0081F51D /* FBCircle-Info.plist */,
+				199A01E41918D1DF0081F51D /* InfoPlist.strings */,
+				199A01E71918D1DF0081F51D /* main.m */,
+				199A01E91918D1DF0081F51D /* FBCircle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		199A01FA1918D1DF0081F51D /* FBCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				199A02001918D1DF0081F51D /* FBCircleTests.m */,
+				199A01FB1918D1DF0081F51D /* Supporting Files */,
+			);
+			path = FBCircleTests;
+			sourceTree = "<group>";
+		};
+		199A01FB1918D1DF0081F51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199A01FC1918D1DF0081F51D /* FBCircleTests-Info.plist */,
+				199A01FD1918D1DF0081F51D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		199A020D1918D7760081F51D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				199A021F1919D81B0081F51D /* RootV */,
+				199A020E1918DA130081F51D /* LoginViewController.h */,
+				199A020F1918DA130081F51D /* LoginViewController.m */,
+				199A02111918DA5F0081F51D /* FriendListViewController.h */,
+				199A02121918DA5F0081F51D /* FriendListViewController.m */,
+				199A02141918DA8E0081F51D /* NewFriendViewController.h */,
+				199A02151918DA8E0081F51D /* NewFriendViewController.m */,
+			);
+			name = Controllers;
+			path = ../Controllers;
+			sourceTree = "<group>";
+		};
+		199A02171918E0C30081F51D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		199A02181918E0C30081F51D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		199A021F1919D81B0081F51D /* RootV */ = {
+			isa = PBXGroup;
+			children = (
+				199A02191919CD420081F51D /* LeftViewController.h */,
+				199A021A1919CD420081F51D /* LeftViewController.m */,
+				199A021C1919CD6C0081F51D /* RightViewController.h */,
+				199A021D1919CD6C0081F51D /* RightViewController.m */,
+				199A020A1918D7390081F51D /* MainViewController.h */,
+				199A020B1918D7390081F51D /* MainViewController.m */,
+			);
+			path = RootV;
+			sourceTree = "<group>";
+		};
+		199A02231919E8B10081F51D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		199A0224191A11B00081F51D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		199A0225191A11C40081F51D /* PersonalApi */ = {
+			isa = PBXGroup;
+			children = (
+				199A0226191A11F90081F51D /* SzkAPI.h */,
+				199A0227191A11F90081F51D /* SzkAPI.m */,
+				199A026B191B7EC60081F51D /* SzkLoadData.h */,
+				199A026C191B7EC60081F51D /* SzkLoadData.m */,
+			);
+			path = PersonalApi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199A01D71918D1DF0081F51D /* FBCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199A02041918D1DF0081F51D /* Build configuration list for PBXNativeTarget "FBCircle" */;
+			buildPhases = (
+				15F23C4DD5AA436092F3BE04 /* Check Pods Manifest.lock */,
+				199A01D41918D1DF0081F51D /* Sources */,
+				199A01D51918D1DF0081F51D /* Frameworks */,
+				199A01D61918D1DF0081F51D /* Resources */,
+				1C54A1D58814476FB60E25F3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBCircle;
+			productName = FBCircle;
+			productReference = 199A01D81918D1DF0081F51D /* FBCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		199A01F21918D1DF0081F51D /* FBCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199A02071918D1DF0081F51D /* Build configuration list for PBXNativeTarget "FBCircleTests" */;
+			buildPhases = (
+				199A01EF1918D1DF0081F51D /* Sources */,
+				199A01F01918D1DF0081F51D /* Frameworks */,
+				199A01F11918D1DF0081F51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199A01F91918D1DF0081F51D /* PBXTargetDependency */,
+			);
+			name = FBCircleTests;
+			productName = FBCircleTests;
+			productReference = 199A01F31918D1DF0081F51D /* FBCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199A01D01918D1DF0081F51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = szk;
+				TargetAttributes = {
+					199A01F21918D1DF0081F51D = {
+						TestTargetID = 199A01D71918D1DF0081F51D;
+					};
+				};
+			};
+			buildConfigurationList = 199A01D31918D1DF0081F51D /* Build configuration list for PBXProject "FBCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 199A01CF1918D1DF0081F51D;
+			productRefGroup = 199A01D91918D1DF0081F51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199A01D71918D1DF0081F51D /* FBCircle */,
+				199A01F21918D1DF0081F51D /* FBCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199A01D61918D1DF0081F51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199A01E61918D1DF0081F51D /* InfoPlist.strings in Resources */,
+				199A01EE1918D1DF0081F51D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199A01F11918D1DF0081F51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199A01FF1918D1DF0081F51D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15F23C4DD5AA436092F3BE04 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C54A1D58814476FB60E25F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199A01D41918D1DF0081F51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199A0228191A11F90081F51D /* SzkAPI.m in Sources */,
+				199A02101918DA130081F51D /* LoginViewController.m in Sources */,
+				199A02131918DA5F0081F51D /* FriendListViewController.m in Sources */,
+				199A01EC1918D1DF0081F51D /* AppDelegate.m in Sources */,
+				199A020C1918D7390081F51D /* MainViewController.m in Sources */,
+				199A021B1919CD420081F51D /* LeftViewController.m in Sources */,
+				199A026D191B7EC60081F51D /* SzkLoadData.m in Sources */,
+				199A021E1919CD6C0081F51D /* RightViewController.m in Sources */,
+				199A01E81918D1DF0081F51D /* main.m in Sources */,
+				199A02161918DA8E0081F51D /* NewFriendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199A01EF1918D1DF0081F51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199A02011918D1DF0081F51D /* FBCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199A01F91918D1DF0081F51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199A01D71918D1DF0081F51D /* FBCircle */;
+			targetProxy = 199A01F81918D1DF0081F51D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		199A01E41918D1DF0081F51D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199A01E51918D1DF0081F51D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		199A01FD1918D1DF0081F51D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199A01FE1918D1DF0081F51D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199A02021918D1DF0081F51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		199A02031918D1DF0081F51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199A02051918D1DF0081F51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B611DE4DD6843ADB67DE824 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBCircle/FBCircle-Prefix.pch";
+				INFOPLIST_FILE = "FBCircle/FBCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		199A02061918D1DF0081F51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B611DE4DD6843ADB67DE824 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBCircle/FBCircle-Prefix.pch";
+				INFOPLIST_FILE = "FBCircle/FBCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		199A02081918D1DF0081F51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBCircle.app/FBCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBCircle/FBCircle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FBCircleTests/FBCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		199A02091918D1DF0081F51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBCircle.app/FBCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBCircle/FBCircle-Prefix.pch";
+				INFOPLIST_FILE = "FBCircleTests/FBCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199A01D31918D1DF0081F51D /* Build configuration list for PBXProject "FBCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199A02021918D1DF0081F51D /* Debug */,
+				199A02031918D1DF0081F51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199A02041918D1DF0081F51D /* Build configuration list for PBXNativeTarget "FBCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199A02051918D1DF0081F51D /* Debug */,
+				199A02061918D1DF0081F51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199A02071918D1DF0081F51D /* Build configuration list for PBXNativeTarget "FBCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199A02081918D1DF0081F51D /* Debug */,
+				199A02091918D1DF0081F51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199A01D01918D1DF0081F51D /* Project object */;
+}
